@@ -1,11 +1,11 @@
 {
-    "token": "OTk1MjEzMTA0NzQ3MTIyNzE5.GjXlo1.nkqETVEdBKjfJU_X0scxDuohj2MirzdSOSNVK0",
-    "clientId": "995213104747122719",
-    "guildId": "945617849848836097",
-    "owernId": "692197998939209789",
-    "errChannel": "1051711747272228874",
-    "welChannel": "994848825321738311",
-    "byeChannel": "994848863909335111",
-    "ticketParent": "995240049656483840",
-    "modLog": "946409024553906296"
+    "token": "token",
+    "clientId": "BotId",
+    "guildId": "GuildId",
+    "owernId": "YourId",
+    "errChannel": "ErrorChannelId",
+    "welChannel": "welcome messgae",
+    "byeChannel": "bye message",
+    "ticketParent": "ticket catorgory",
+    "modLog": "mod log channel"
 }
