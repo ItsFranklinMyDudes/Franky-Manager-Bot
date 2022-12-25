@@ -39,7 +39,7 @@ client.on('ready', async () => {
     }, 2000)
 
     function statusCount() { 
-        let guild = client.guilds.cache.get('945617849848836097')
+        let guild = client.guilds.cache.get(config.guildId)
 
         client.channels.cache.get('996302556361924668').setName(`🟢 ${guild.members.cache.filter(m => m.presence?.status == 'online').size} ⛔ ${guild.members.cache.filter(m => m.presence?.status == 'dnd').size} 🌙 ${guild.members.cache.filter(m => m.presence?.status == 'idle').size} ⚫ ${guild.members.cache.filter(m => m.presence?.status == 'offline' || !m.presence).size}`)
         client.channels.cache.get('996302425742905496').setName(`👥 Total users - ${guild.memberCount}`)
