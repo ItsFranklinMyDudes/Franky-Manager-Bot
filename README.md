@@ -1,3 +1,3 @@
 # Franky-Manager-Bot
 
-dont for got the change the config.json and the reaction role file
+Don't forget to change the config.json file and reaction-role.js file.
